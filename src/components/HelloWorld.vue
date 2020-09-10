@@ -1,7 +1,7 @@
 <template>
 
  <div>
-   <h1>Places I want to see</h1>
+   <h1>Travel wish list </h1>
   <article v-for="(location, idx) in locations" :key="idx">
     <h2>{{ location.name }}</h2>
     <img :src="location.images">
